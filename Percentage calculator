@@ -1,0 +1,16 @@
+x = float(input("Your marks: "))
+y = float(input("Out of: "))
+z = round((x*100)/y, 2)
+
+print("Percentage:", z, "%")
+
+if z >= 90:
+    print("Grade: A+")
+elif z >= 80:
+    print("Grade: A")
+elif z >= 70:
+    print("Grade: B")
+elif z >= 60:
+    print("Grade: C")
+else:
+    print("Grade: F")
